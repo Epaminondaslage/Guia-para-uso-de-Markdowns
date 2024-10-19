@@ -1,4 +1,5 @@
-# markdown
+# Guia para uso de Markdowns para Github
+
 <head><meta charset="UTF-8"></head><pre style="caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; overflow-wrap: break-word; white-space: pre-wrap;"># - [Sumário](#guia-para-uso-de-markdowns-para-github)
 - [- Sumário](#ullisumárioliul)
 - [Guia para uso de Markdowns para Github](#guia-para-uso-de-markdowns-para-github)
@@ -46,16 +47,16 @@ Para enfase em um texto, podemos utilizar algumas atribuições como: Negrito, I
 ### Negrito
 &lt;!-- Strong --&gt;
 
-Este é um texto em - - negrito- - . Para utilizar essa marcação é necessário utilizar a palavra entre asteriscos `- - &lt;texto_aqui&gt;- - `
+Este é um texto em **negrito** . Para utilizar essa marcação é necessário utilizar a palavra entre asteriscos `**' 
 
 ### Itálico
 
-Este é um texto em _itálico_. Para utilizar essa marcação é necessário utilizar a palavra entre underlines `_&lt;texto_aqui&gt;_`
+Este é um texto em _itálico_. Para utilizar essa marcação é necessário utilizar a palavra entre underlines `_texto aqui_`
 
 
 ### Riscado
 
-Este é um texto em ~~itálico~~. Para utilizar essa marcação é necessário utilizar a palavra entre tiõs `~~&lt;texto_aqui&gt;~~`
+Este é um texto em ~~itálico~~. Para utilizar essa marcação é necessário utilizar a palavra entre tiõs `~~texto_aqui~~`
 
 
 ### Linha horizontal
@@ -63,31 +64,26 @@ Este é um texto em ~~itálico~~. Para utilizar essa marcação é necessário u
 Se você deseja fazer uma linha horizontal para dividir conteúdos, você pode utilizar `---` ou `___` 
 
 ---
-_- - Texto entre as linhas- - _
+ --Texto entre as linhas-- 
 ___
 
 ## Blocos de citação
 
-Para criar blocos de citações é necessário utilizar o `&gt;`
+Para criar blocos de citações é necessário utilizar o `aspas`
 
-&gt; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam voluptatum nesciunt
+`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam voluptatum nesciunt
 perspiciatis itaque id adipisci a, dolores debitis eos? Error eligendi aspernatur ipsam
-exercitationem quae temporibus nam asperiores.
-
-
-&gt;&gt;  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam voluptatum nesciunt
-perspiciatis itaque id adipisci a, dolores debitis eos? Error eligendi aspernatur ipsam
-exercitationem quae temporibus nam asperiores. Qui?
+exercitationem quae temporibus nam asperiores.`
 
 ## Links
 
 O texto que queremos utilizar para o link vai entre `[]` e o link vai entre `()` logo após o texto.
 
-[Ricardo's Github](https://github.com/ricardo-cas)
+[Epaminondas Lage](https://github.com/Epaminondaslage)
 
-Se você deseja adicionar um título par ao link que você está criando (para aparecer quando você posiciona o mouse no link), é só você dar um espaço após o `()` e adicionar o texto do título entre aspas `[Ricardo's Github](https://github.com/ricardo-cas "Título do link")`.
+Se você deseja adicionar um título par ao link que você está criando (para aparecer quando você posiciona o mouse no link), é só você dar um espaço após o `()` e adicionar o texto do título entre aspas 
 
-[Ricardo's Github](https://github.com/ricardo-cas "Pagina do GitHub do Ricardo")
+[Epaminondas Lage Github](https://github.com/Epaminondaslage) "Pagina do GitHub do Epaminondas")
 
 ## Imagens
 
