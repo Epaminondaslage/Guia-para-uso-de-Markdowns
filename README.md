@@ -71,9 +71,9 @@ Se você deseja criar ` _sub itens_ `-  dentro da lista, é só realizar a ident
 
 -  Item 1
 -  Item 2
-  -  Sub item 1
-    -  Sub item 2
-      -  Sub item 3
+  - Sub item 1
+    - Sub item 2
+       - Sub item 3
 
 ## Listas Ordenadas
 
