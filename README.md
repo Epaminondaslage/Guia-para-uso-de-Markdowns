@@ -4,13 +4,17 @@
 
 1. [Cabeçalhos](#Cabeçalhos)
 2. [Enfase em textos](#Enfase-em-textos)
-3. [Comentário simples em HTML](#comentário-simples-em-html)
-4. [Comentário dentro de código](#comentário-dentro-de-código)
-5. [Exemplo de Programa em Python](#exemplo-de-programa-em-python)
-   - [Print "Olá, Mundo!"](#print-olá-mundo)
-   - [Soma de dois números](#soma-de-dois-números)
-6. [Conclusão](#conclusão)
-
+3. [Blocos de citação](#Blocos-de-citação)
+4. [Links](#Links)
+5. [Imagens](#Imagens)
+6. [Listas Não Ordenadas](#Listas-Não-Ordenadas)
+7. [Listas Ordenadas](#Listas-Ordenadas)
+8. [Comentários](#Comentários)
+9. [Comentário simples em HTML](#comentário-simples-em-html)
+10. [Comentário dentro de código](#comentário-dentro-de-código)
+11. [Exemplo de Programa em Python](#exemplo-de-programa-em-python)
+12. [Tabelas](#Tabelas)
+13. [Lista de Tarefas](#Lista-de-Tarefas)
 
 
 ## Cabeçalhos 
@@ -51,11 +55,11 @@ ___
 
 ## Blocos de citação
 
-Para criar blocos de citações é necessário utilizar o `aspas`
+Esse bloco de citação é criado utilizando o símbolo > no início da linha, e você pode formatar tanto a citação quanto o nome do autor como desejar. A citação é geralmente destacada na renderização com uma barra lateral ou um recuo.
 
-`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam voluptatum nesciunt
-perspiciatis itaque id adipisci a, dolores debitis eos? Error eligendi aspernatur ipsam
-exercitationem quae temporibus nam asperiores.`
+> "A simplicidade é a maior sofisticação."  
+> – Leonardo da Vinci
+
 
 ## Links
 
@@ -103,9 +107,9 @@ Para listas ordenadas, é necessário colocar os números `1. Item 1`  antes do 
       b. Sub 2
 
 ## Comentários 
+
 Em Markdown, a sintaxe de comentário pode ser feita usando os seguintes padrões, embora comentários não sejam parte oficial do Markdown e não sejam exibidos em muitos renderizadores:
 
-### Uma linha de código em forma de comentário
 
 #### Comentário simples (em HTML)
 
