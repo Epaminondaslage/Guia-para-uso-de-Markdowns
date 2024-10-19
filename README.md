@@ -45,7 +45,6 @@ Para cabeçalhos, utilizamos `#` e a cada # adicionado representa um nível, ind
 Para enfase em um texto, podemos utilizar algumas atribuições como: Negrito, Itálico, Riscado... entre outros, conforme exemplo abaixo:
 
 ### Negrito
-&lt;!-- Strong --&gt;
 
 Este é um texto em **negrito** . Para utilizar essa marcação é necessário utilizar a palavra entre asteriscos `**' 
 
@@ -56,7 +55,7 @@ Este é um texto em _itálico_. Para utilizar essa marcação é necessário uti
 
 ### Riscado
 
-Este é um texto em ~~itálico~~. Para utilizar essa marcação é necessário utilizar a palavra entre tiõs `~~texto_aqui~~`
+Este é um texto em ~~Riscado~~. Para utilizar essa marcação é necessário utilizar a palavra entre til `~~texto_aqui~~`
 
 
 ### Linha horizontal
