@@ -103,17 +103,17 @@ código```  e também é - - _recomendado_- -  que você coloque a linguagem em 
 
 #### Html
 ```html
-&lt;!DOCTYPE html&gt;
-&lt;html lang="pt-BR"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Página&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá, Mundo!</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+</body>
+</html>
 ```
 
 #### Bash
@@ -125,19 +125,24 @@ pip install --upgrade --user pandas
 ```
 
 #### Prompt de Comando
+
 ```cmd
 cd C:\\User\YourUser\Desktop
-
 mkdir Folder
 ```
 
 #### Python
-```python
-def hello():
-    print('Hello World')
 
-if __name__ == "__main__":
-    hello()
+```python
+# Solicita ao usuário dois números
+numero1 = float(input("Digite o primeiro número: "))
+numero2 = float(input("Digite o segundo número: "))
+
+# Calcula a soma dos dois números
+soma = numero1 + numero2
+
+# Exibe o resultado
+print(f"A soma de {numero1} e {numero2} é {soma}.")
 ```
 
 ## Tabelas
@@ -160,11 +165,10 @@ Para criar tabelas é necessário utilizar um formato específico para o Github,
 
 Para fazer uma lista de tarefas é necessário utilizar um formato específico para o Github, conforme bloco de códigos abaixo:
 
-```bash
+
 - [x] Item completado
 - [x] Item completado
 - [ ] Item não completado
-```
 
 
 - [x] Criar arquivo guia para Readme no Github
