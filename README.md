@@ -1,36 +1,5 @@
 # Guia para uso de Markdowns para Github
 
-<head><meta charset="UTF-8"></head><pre style="caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; overflow-wrap: break-word; white-space: pre-wrap;"># - [Sumário](#guia-para-uso-de-markdowns-para-github)
-- [- Sumário](#ullisumárioliul)
-- [Guia para uso de Markdowns para Github](#guia-para-uso-de-markdowns-para-github)
-- [Cabeçalho 1](#cabeçalho-1)
-  - [Cabeçalho 2](#cabeçalho-2)
-    - [Cabeçalho 3](#cabeçalho-3)
-      - [Cabeçalho 4](#cabeçalho-4)
-        - [Cabeçalho 5](#cabeçalho-5)
-          - [Cabeçalho 6](#cabeçalho-6)
-  - [Enfase em textos](#enfase-em-textos)
-    - [Negrito](#negrito)
-    - [Itálico](#itálico)
-    - [Riscado](#riscado)
-    - [Linha horizontal](#linha-horizontal)
-  - [Blocos de citação](#blocos-de-citação)
-  - [Links](#links)
-  - [Imagens](#imagens)
-  - [Listas Não Ordenadas](#listas-não-ordenadas)
-  - [Listas Ordenadas](#listas-ordenadas)
-  - [Comentários de Códigos](#comentários-de-códigos)
-    - [Uma linha de código em forma de comentário](#uma-linha-de-código-em-forma-de-comentário)
-    - [Várias linhas de código em forma de comentário](#várias-linhas-de-código-em-forma-de-comentário)
-      - [Html](#html)
-      - [Bash](#bash)
-      - [Prompt de Comando](#prompt-de-comando)
-      - [Python](#python)
-  - [Tabelas](#tabelas)
-  - [Lista de Tarefas](#lista-de-tarefas)
-
-# Guia para uso de Markdowns para Github
-
 Para cabeçalhos, utilizamos `#` e a cada # adicionado representa um nível, indo de 1 a 6, seguindo exemplo abaixo:
 
 # Cabeçalho 1 
@@ -46,7 +15,7 @@ Para enfase em um texto, podemos utilizar algumas atribuições como: Negrito, I
 
 ### Negrito
 
-Este é um texto em **negrito** . Para utilizar essa marcação é necessário utilizar a palavra entre asteriscos `**' 
+Este é um texto em **negrito** . Para utilizar essa marcação é necessário utilizar a palavra entre asteriscos `**`
 
 ### Itálico
 
@@ -82,7 +51,7 @@ O texto que queremos utilizar para o link vai entre `[]` e o link vai entre `()`
 
 Se você deseja adicionar um título par ao link que você está criando (para aparecer quando você posiciona o mouse no link), é só você dar um espaço após o `()` e adicionar o texto do título entre aspas 
 
-[Epaminondas Lage Github](https://github.com/Epaminondaslage) "Pagina do GitHub do Epaminondas")
+[Epaminondas Lage Github](https://github.com/Epaminondaslage) "Pagina do GitHub do Epaminondas"
 
 ## Imagens
 
