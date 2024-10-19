@@ -72,7 +72,7 @@ Se você deseja adicionar um título par ao link que você está criando (para a
 
 A imagem deve estar depois de `![texto_legenda]` seguido por entre `()` com o link da imagem.
 
-![imagem](https://source.unsplash.com/random/200x200)
+![imagem](https://github.com/Epaminondaslage/Kit-IoT/blob/master/img/Logo_CEFET-MG.png)
 
 ## Listas Não Ordenadas
 
