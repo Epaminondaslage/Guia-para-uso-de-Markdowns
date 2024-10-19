@@ -144,13 +144,12 @@ if __name__ == "__main__":
 
 Para criar tabelas é necessário utilizar um formato específico para o Github, conforme bloco de códigos abaixo:
 
-```bash
+
 | Cabeçalho | Cabeçalho | Cabeçalho |
 | --- | --- | --- |
 | conteúdo | conteúdo | conteúdo |
 | conteúdo | conteúdo | conteúdo |
 
-```
 
 | Nome | Tipo | Ataque |
 | --- | --- | --- |
