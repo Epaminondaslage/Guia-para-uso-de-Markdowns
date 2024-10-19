@@ -1,6 +1,6 @@
 # Guia para uso de Markdowns para Github
 
-Para cabeçalhos, utilizamos `#` e a cada # adicionado representa um nível, indo de 1 a 6, seguindo exemplo abaixo:
+Para cabeçalhos, utilizamos `#` e a cada `#` adicionado representa um nível, indo de 1 a 6, seguindo exemplo abaixo:
 
 # Cabeçalho 1 
 ## Cabeçalho 2 
