@@ -110,9 +110,7 @@ Para listas ordenadas, é necessário colocar os números `1. Item 1`  antes do 
 1. Primeiro item
 2. Segundo item
 3. Terceiro item
-   3.1 sub item
-
-
+  
 As sublistas são criadas com dois espaços de indentação, mas a numeração é automática.
 
 
