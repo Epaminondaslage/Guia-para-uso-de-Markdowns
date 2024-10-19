@@ -81,9 +81,13 @@ Se você deseja adicionar um título par ao link que você está criando (para a
 
 A imagem deve estar depois de `![texto_legenda]` seguido por entre `()` com o link da imagem.
 
+```![imagem](https://github.com/Epaminondaslage/Kit-IoT/blob/master/img/Logo_CEFET-MG.png)```
+
 ![imagem](https://github.com/Epaminondaslage/Kit-IoT/blob/master/img/Logo_CEFET-MG.png)
 
 ou em formato html
+
+```<td style="width: 30%;"><img src="https://github.com/Epaminondaslage/Lab-IoT-ELE-CEFET/blob/master/img/Logo_CEFET-MG.png" width="30%" /></td>```
 
 <td style="width: 30%;"><img src="https://github.com/Epaminondaslage/Lab-IoT-ELE-CEFET/blob/master/img/Logo_CEFET-MG.png" width="30%" /></td>
 
