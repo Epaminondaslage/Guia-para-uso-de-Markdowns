@@ -10,11 +10,8 @@
 6. [Listas Não Ordenadas](#Listas-Não-Ordenadas)
 7. [Listas Ordenadas](#Listas-Ordenadas)
 8. [Comentários](#Comentários)
-9. [Comentário simples em HTML](#comentário-simples-em-html)
-10. [Comentário dentro de código](#comentário-dentro-de-código)
-11. [Exemplo de Programa em Python](#exemplo-de-programa-em-python)
-12. [Tabelas](#Tabelas)
-13. [Lista de Tarefas](#Lista-de-Tarefas)
+9. [Tabelas](#Tabelas)
+10. [Lista de Tarefas](#Lista-de-Tarefas)
 
 
 ## Cabeçalhos 
