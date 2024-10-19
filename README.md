@@ -85,21 +85,26 @@ Para listas ordenadas, é necessário colocar os números `1. Item 1`  antes do 
    2. Sub 2
 3. Item 3
    1. Sub 1
-      a. Sub 1
+     a. Sub 1
       b. Sub 2
 
-## Comentários de Códigos
+## Comentários 
+Em Markdown, a sintaxe de comentário pode ser feita usando os seguintes padrões, embora comentários não sejam parte oficial do Markdown e não sejam exibidos em muitos renderizadores:
 
 ### Uma linha de código em forma de comentário
 
-Para colocar uma linha de códigos em forma comentários, é necessário utilizar  \`código` que o resultado será:
+#### Comentário simples (em HTML)
 
- \Este é um paragrafo em html
+Use a sintaxe de comentário do HTML. Esse tipo de comentário não será exibido no resultado renderizado.
 
-### Várias linhas de código em forma de comentário
+markdown
+```
+<!-- Este é um comentário e não será exibido -->
+```
 
-Para colocar um bloco de códigos em forma comentários, é necessário utilizar  \```html
-código```  e também é - - _recomendado_- -  que você coloque a linguagem em que aquele bloco de código está escrito, para facilitar a marcação de palavras reservadas daquela linguagem.
+#### Várias linhas de código em forma de comentário
+
+Para colocar um bloco de códigos em forma comentários, é necessário utilizar  ```html código```  e também é `_recomendado_`  que você coloque a linguagem em que aquele bloco de código está escrito, para facilitar a marcação de palavras reservadas daquela linguagem.
 
 #### Html
 ```html
