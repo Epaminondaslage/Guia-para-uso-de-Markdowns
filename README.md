@@ -74,6 +74,10 @@ A imagem deve estar depois de `![texto_legenda]` seguido por entre `()` com o li
 
 ![imagem](https://github.com/Epaminondaslage/Kit-IoT/blob/master/img/Logo_CEFET-MG.png)
 
+ou em formato html
+
+<td style="width: 30%;"><img src="https://github.com/Epaminondaslage/Lab-IoT-ELE-CEFET/blob/master/img/Logo_CEFET-MG.png" width="30%" /></td>
+
 ## Listas Não Ordenadas
 
 Para criação de listas não ordenadas é necessário colocar o asterisco `-  Item` antes do item para criar a lista. Exemplo:
