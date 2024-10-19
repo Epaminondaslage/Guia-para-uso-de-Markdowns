@@ -67,7 +67,7 @@ Para criação de listas não ordenadas é necessário colocar o asterisco `-  I
 -  Item 2
 -  Item 3
 
-Se você deseja criar - - _sub itens_- -  dentro da lista, é só realizar a identação na lista, conforme exemplo:
+Se você deseja criar ` _sub itens_ `-  dentro da lista, é só realizar a identação na lista, conforme exemplo:
 
 -  Item 1
 -  Item 2
@@ -94,14 +94,15 @@ Para listas ordenadas, é necessário colocar os números `1. Item 1`  antes do 
 
 Para colocar uma linha de códigos em forma comentários, é necessário utilizar  \`código` que o resultado será:
 
-`&lt;p&gt; Este é um paragrafo em html&lt;/p&gt;`
+ \Este é um paragrafo em html
 
 ### Várias linhas de código em forma de comentário
+
 Para colocar um bloco de códigos em forma comentários, é necessário utilizar  \```html
 código```  e também é - - _recomendado_- -  que você coloque a linguagem em que aquele bloco de código está escrito, para facilitar a marcação de palavras reservadas daquela linguagem.
 
 #### Html
-``` html
+```html
 &lt;!DOCTYPE html&gt;
 &lt;html lang="pt-BR"&gt;
 &lt;head&gt;
@@ -118,9 +119,7 @@ código```  e também é - - _recomendado_- -  que você coloque a linguagem em 
 #### Bash
 ```bash
 ls
-
 pip install pandas
-
 pip install --upgrade --user pandas
 
 ```
