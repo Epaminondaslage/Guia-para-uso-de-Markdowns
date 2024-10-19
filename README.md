@@ -2,19 +2,28 @@
 
 # Guia para uso de Markdowns para Github
 
-1. [Cabeçalhos](#Cabeçalhos)
-2. [Enfase em textos](#Enfase-em-textos)
-3. [Blocos de citação](#Blocos-de-citação)
-4. [Links](#Links)
-5. [Imagens](#Imagens)
-6. [Listas Não Ordenadas](#Listas-Não-Ordenadas)
-7. [Listas Ordenadas](#Listas-Ordenadas)
-8. [Comentários](#Comentários)
-9. [Tabelas](#Tabelas)
-10. [Lista de Tarefas](#Lista-de-Tarefas)
+1. [Introdução](#Introdução)
+2. [Cabeçalhos](#Cabeçalhos)
+3. [Enfase em textos](#Enfase-em-textos)
+4. [Blocos de citação](#Blocos-de-citação)
+5. [Links](#Links)
+6. [Imagens](#Imagens)
+7. [Listas Não Ordenadas](#Listas-Não-Ordenadas)
+8. [Listas Ordenadas](#Listas-Ordenadas)
+9. [Comentários](#Comentários)
+10. [Tabelas](#Tabelas)
+11. [Lista de Tarefas](#Lista-de-Tarefas)
 
+## Introdução
+
+Markdown é uma linguagem de marcação leve que permite formatar texto de maneira simples e legível, utilizando símbolos e caracteres comuns. Foi criada por John Gruber e Aaron Swartz em 2004, com o objetivo de ser uma linguagem fácil de escrever e de ler em sua forma "bruta", ou seja, sem renderização.
+
+A principal característica do Markdown é que ele pode ser convertido para HTML e outros formatos, permitindo que você escreva documentos que serão exibidos com uma formatação adequada em navegadores ou outras plataformas. Ao mesmo tempo, o texto em Markdown permanece legível e simples, mesmo sem renderização.
+
+Markdown é amplamente usado em plataformas como GitHub, Stack Overflow, editores de textos de desenvolvedores, e sistemas de documentação. É fácil de aprender e ideal para criar conteúdo formatado sem a complexidade de linguagens de marcação mais pesadas, como o HTML.
 
 ## Cabeçalhos 
+
 Para cabeçalhos, utilizamos `#` e a cada `#` adicionado representa um nível, indo de 1 a 6, seguindo exemplo abaixo:
 
 # Cabeçalho 1 
@@ -99,14 +108,9 @@ Se você deseja criar ` _sub itens_ `-  dentro da lista, é só realizar a ident
 Para listas ordenadas, é necessário colocar os números `1. Item 1`  antes do item para criar a lista. Exemplo:
 
 1. Primeiro item
-     1.1. Subitem do primeiro item
-       1.1.1. Sub-subitem do primeiro item
-      1.2. Outro subitem do primeiro item
 2. Segundo item
-  2.1. Subitem do segundo item
-    2.1.1. Sub-subitem do segundo item
 3. Terceiro item
-  3.1. Subitem do terceiro item
+   3.1 sub item
 
 
 As sublistas são criadas com dois espaços de indentação, mas a numeração é automática.
