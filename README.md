@@ -97,14 +97,19 @@ Se você deseja criar ` _sub itens_ `-  dentro da lista, é só realizar a ident
 
 Para listas ordenadas, é necessário colocar os números `1. Item 1`  antes do item para criar a lista. Exemplo:
 
-1. Item 1
-2. Item 2
-   1. Sub 1
-   2. Sub 2
-3. Item 3
-   1. Sub 1
-      a. Sub 1
-      b. Sub 2
+1. Primeiro item
+   1.1. Subitem do primeiro item
+       1.1.1. Sub-subitem do primeiro item
+   1.2. Outro subitem do primeiro item
+2. Segundo item
+   2.1. Subitem do segundo item
+       2.1.1. Sub-subitem do segundo item
+3. Terceiro item
+   3.1. Subitem do terceiro item
+
+As sublistas são criadas com dois espaços de indentação, mas a numeração é automática.
+
+
 
 ## Comentários 
 
