@@ -214,6 +214,36 @@ Para fazer uma lista de tarefas é necessário utilizar um formato específico p
 - [ ] Envio das mudanças para o repositório</pre>
 
 
+### Uso direto de Emoji
+- ⭐ (estrela): ⭐
+- 🔥 (fogo): 🔥
+- 📞 (telefone): 📞
+- 💰 (dinheiro/saco de dinheiro): 💰
+- 🏆 (troféu): 🏆
+- 🎉 (festa/congratulações): 🎉
+- 🔍 (lupa): 🔍
+- 🗂️ (pasta de arquivos): 🗂️
+- 📨 (carta recebida): 📨
+- 📚 (livros/educação): 📚
+- 💬 (balão de fala/mensagem): 💬
+- 🌟 (estrela brilhante): 🌟
+- 🔔 (sino): 🔔
+- 🖊️ (caneta): 🖊️
+- 📊 (gráfico): 📊
+- 🧭 (bússola): 🧭
+- 🔗 (corrente/link): 🔗
+- 🏁 (bandeira de chegada): 🏁
+- 🚧 (construção/obras): 🚧
+- 🏠 (casa): 🏠
+- 🌍 (globo terrestre/planeta): 🌍
+- 📅 (calendário): 📅
+- ⏰ (relógio/despertador): ⏰
+- 🔋 (bateria): 🔋
+- 🎥 (filmadora): 🎥
+- 🌊 (onda): 🌊
+- 🗳️ (urna de votação): 🗳️
+- 🧩 (quebra-cabeça): 🧩
+- ✈️ (avião/viagem): ✈️
 - ✔️ Marca de verificação
 - ❌ X vermelho
 - ⚠️ Aviso
@@ -235,3 +265,36 @@ Para fazer uma lista de tarefas é necessário utilizar um formato específico p
 - 🎯 Objetivo
 - 💻 Laptop
 - 📢 Alto-falante/anúncio
+- 🔑 (chave): 🔑
+- 🛒 (carrinho de compras): 🛒
+- ✨ (brilho/efeito mágico): ✨
+- 🌞 (sol): 🌞
+- 🌜 (lua): 🌜
+- 🌀 (ciclone/espiral): 🌀
+- ⚙️ (engrenagem): ⚙️
+- 🎵 (nota musical): 🎵
+- 🌈 (arco-íris): 🌈
+- 💦 (gota d'água): 💦
+- 🥇 (medalha de ouro): 🥇
+- 🍀 (trevo da sorte): 🍀
+- 🎁 (presente): 🎁
+- 📖 (livro aberto): 📖
+- 🚀 (foguete): 🚀
+- 🛑 (sinal de pare): 🛑
+- 💎 (diamante): 💎
+- 🛡️ (escudo): 🛡️
+- 💥 (explosão): 💥
+- 🚨 (sirene/alerta): 🚨
+- 🎈 (balão): 🎈
+- 🍎 (maçã): 🍎
+- 🎮 (controle de videogame): 🎮
+- 🖼️ (quadro/imagem): 🖼️
+- 🏋️‍♂️ (levantador de peso): 🏋️‍♂️
+- 🚴‍♀️ (ciclista): 🚴‍♀️
+- 🐾 (pegadas): 🐾
+- ⚖️ (balança/justiça): ⚖️
+- 🛏️ (cama): 🛏️
+- 🧹 (vassoura): 🧹
+- 🥂 (brinde/taças): 🥂
+- 🔦 (lanterna): 🔦
+- 🗺️ (mapa): 🗺️
