@@ -212,3 +212,26 @@ Para fazer uma lista de tarefas é necessário utilizar um formato específico p
 - [x] Criar arquivo guia para Readme no Github
 - [x] Commit das mudanças
 - [ ] Envio das mudanças para o repositório</pre>
+
+
+- ✔️ Marca de verificação
+- ❌ X vermelho
+- ⚠️ Aviso
+- 📅 Calendário
+- 📌 Pin de localização
+- 📊 Gráfico de barras
+- 🔒 Cadeado fechado
+- 🔓 Cadeado aberto
+- 💡 Ideia
+- 📈 Gráfico crescente
+- 🔄 Atualizar/reciclar
+- 🛠️ Ferramentas/reparo
+- 🚀 Foguete/lancamento
+- 💾 Salvar/disquete
+- 📝 Bloco de notas
+- ⏳ Ampulheta
+- 🖥️ Computador
+- 🌱 Planta/crescimento
+- 🎯 Objetivo
+- 💻 Laptop
+- 📢 Alto-falante/anúncio
