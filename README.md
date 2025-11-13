@@ -790,30 +790,31 @@ flowchart LR
 --- 
 ```mermaid
 flowchart TD
-    START([Início]) --> FORM[Usuário envia<br/>usuário + senha]
+    START([Início]) --> FORM["Usuário envia usuário e senha"]
 
-    FORM --> AUTH{Credenciais corretas?}
-    AUTH -->|Não| ERRO_LOGIN[Incrementa contador<br/>de falhas]
-    ERRO_LOGIN --> LIMITE{Ultrapassou limite<br/>de tentativas?}
+    FORM --> AUTH{"Credenciais corretas?"}
+    AUTH -->|"Não"| ERRO_LOGIN["Incrementa contador de falhas"]
+    ERRO_LOGIN --> LIMITE{"Ultrapassou limite de tentativas?"}
 
-    LIMITE -->|Sim| BLOQ[Bloquear conta<br/>temporariamente]
-    BLOQ --> MSG_BLOQ[Exibir mensagem de conta bloqueada]
+    LIMITE -->|"Sim"| BLOQ["Bloquear conta temporariamente"]
+    BLOQ --> MSG_BLOQ["Exibir mensagem de conta bloqueada"]
     MSG_BLOQ --> FIM([Fim])
 
-    LIMITE -->|Não| MSG_ERRO[Exibir erro de login]
+    LIMITE -->|"Não"| MSG_ERRO["Exibir erro de login"]
     MSG_ERRO --> START
 
-    AUTH -->|Sim| VER_2FA{2FA habilitado?}
-    VER_2FA -->|Não| SESSAO[Gerar sessão e token]
-    SESSAO --> DASH[Redirecionar para dashboard]
+    AUTH -->|"Sim"| VER_2FA{"2FA habilitado?"}
+    VER_2FA -->|"Não"| SESSAO["Gerar sessão e token"]
+    SESSAO --> DASH["Redirecionar para dashboard"]
     DASH --> FIM
 
-    VER_2FA -->|Sim| ENVIA_2FA[Enviar código 2FA<br/>(app, SMS ou e-mail)]
-    ENVIA_2FA --> FORM_2FA[Usuário digita código 2FA]
-    FORM_2FA --> VALIDA_2FA{Código válido?}
+    VER_2FA -->|"Sim"| ENVIA_2FA["Enviar código 2FA via app, SMS ou email"]
+    ENVIA_2FA --> FORM_2FA["Usuário digita código 2FA"]
+    FORM_2FA --> VALIDA_2FA{"Código 2FA válido?"}
 
-    VALIDA_2FA -->|Não| ERRO_2FA[Exibir erro 2FA]
+    VALIDA_2FA -->|"Não"| ERRO_2FA["Exibir erro 2FA"]
     ERRO_2FA --> FORM_2FA
 
-    VALIDA_2FA -->|Sim| SESSAO
+    VALIDA_2FA -->|"Sim"| SESSAO
+
 ```
