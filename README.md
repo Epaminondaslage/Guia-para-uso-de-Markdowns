@@ -745,3 +745,43 @@ gantt
     Testes de integração       :c2, after c1, 7d
     Homologação               :milestone, c3, 2025-03-15, 0d
 ```
+### 16. Sistema IoT (sensores, MQTT, dashboard, banco de dados)
+
+```mermeid
+flowchart LR
+    subgraph Dispositivos IoT
+        S1[Sensor Temp/Umid #1]
+        S2[Sensor Temp/Umid #2]
+        S3[ESP32 - Energia]
+    end
+
+    S1 -->|MQTT publish<br/>/sala1/dados| BRK[(Broker MQTT)]
+    S2 -->|MQTT publish<br/>/sala2/dados| BRK
+    S3 -->|MQTT publish<br/>/energia/dados| BRK
+
+    subgraph Backend
+        SUB[Subscriber MQTT<br/>coletor.php]
+        PROC[Processar payloads<br/>(normalizar / validar)]
+        DB[(Banco de Dados<br/>MariaDB)]
+    end
+
+    BRK --> SUB
+    SUB --> PROC
+    PROC -->|INSERT| DB
+
+    subgraph Dashboard Web
+        WEB[Frontend HTML/JS]
+        API[API REST PHP]
+    end
+
+    WEB -->|GET /api/dados| API
+    API -->|SELECT| DB
+    DB --> API
+    API --> WEB
+
+    WEB --> USER[Usuário Visualiza<br/>Gráficos e Alarmes]
+
+    %% Alarmes
+    PROC -->|Regra de limite excedido| MQTT_ALR[(MQTT /alarme)]
+    MQTT_ALR --> ESP_ALR[ESP32 - Aciona Sirene]
+```
