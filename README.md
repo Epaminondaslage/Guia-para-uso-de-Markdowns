@@ -315,6 +315,8 @@ gantt
   section Execução
     Desenvolvimento    :b1, 2025-11-15, 10d
     Testes             :b2, after b1, 7d
-```
-``` 
+
+``markdown
+```mermaid
+info
 
