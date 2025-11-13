@@ -718,3 +718,30 @@ classDiagram
 
 ```
 
+### 15. Gantt Diagram 
+
+```mermaid
+%%{init: {'theme':'default'}}%%
+gantt
+    dateFormat  YYYY-MM-DD
+    title Cronograma do Projeto IoT
+    excludes weekends
+
+    %% todayMarker não é suportado diretamente no GitHub
+    %% Então deixamos desativado mesmo
+    todayMarker off
+
+    section Planejamento
+    Levantamento de requisitos :a1, 2025-02-01, 7d
+    Desenho da arquitetura     :a2, after a1, 5d
+
+    section Desenvolvimento
+    Backend (API + MQTT)       :b1, 2025-02-15, 10d
+    Firmware ESP32             :b2, after b1, 12d
+    Dashboard Web              :b3, 2025-02-20, 14d
+
+    section Testes
+    Testes unitários           :c1, after b2, 5d
+    Testes de integração       :c2, after c1, 7d
+    Homologação               :milestone, c3, 2025-03-15, 0d
+```
