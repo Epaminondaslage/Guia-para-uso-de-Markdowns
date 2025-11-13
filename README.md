@@ -15,6 +15,7 @@
 11. [Lista de Tarefas](#lista-de-tarefas)
 12. [Emoji](#emoji)
 13. [Mermaid](#mermaid)
+14. [Editores Marmaid](#editores-marmaid)
 
 ---
 
@@ -820,3 +821,133 @@ flowchart TD
     VALIDA_2FA -->|"Sim"| SESSAO
 
 ```
+# Editores Mermaid 
+
+Editores **online** e **offline** para criar diagramas utilizando **Mermaid.js**, incluindo links, recursos e recomendações.
+
+---
+
+##  Editores Online
+
+### 1. **Mermaid Live Editor (Oficial)**
+- 🌐 **URL:** https://mermaid.live
+- ✨ Recursos:
+  - Edição em tempo real
+  - Visualização instantânea
+  - Exportação para PNG / SVG
+  - Editor oficial da linguagem
+- 👍 Recomendado para: testes rápidos e uso geral
+
+---
+
+### 2. **Mermaid Flow**
+- 🌐 **URL:** https://www.mermaidflow.app
+- ✨ Recursos:
+  - Interface moderna
+  - Pré‑visualização lado‑a‑lado
+  - Exportação simples e limpa
+- 👍 Recomendado para: documentação com boa estética
+
+---
+
+### 3. **Mermaid Chart**
+- 🌐 **URL:** https://www.mermaidchart.com/play
+- ✨ Recursos:
+  - Editor avançado
+  - Edição colaborativa
+  - Exportação profissional
+- 👍 Recomendado para: equipes e projetos grandes
+
+---
+
+### 4. **Mermaid Viewer**
+- 🌐 **URL:** https://mermaidviewer.com
+- ✨ Recursos:
+  - Visualizador rápido
+  - Exportação em SVG
+- 👍 Recomendado para: pré‑visualização simples
+
+---
+
+### 5. **StackEdit**
+- 🌐 **URL:** https://stackedit.io
+- ✨ Recursos:
+  - Markdown com preview Mermaid
+  - Sincronização com Google Drive / GitHub
+- 👍 Recomendado para: quem escreve grandes documentos em Markdown
+
+---
+
+### 6. **Obsidian (via plugin)**
+- 🌐 **URL:** https://obsidian.md
+- ✨ Recursos:
+  - Suporte integrado a Mermaid
+  - Markdown local com preview
+- 👍 Recomendado para: documentação pessoal e notas
+
+---
+
+---
+
+## Editores Offline (Desktop)
+
+### 1. **VS Code (com extensão Mermaid)**
+- 💻 **URL:** https://code.visualstudio.com
+- 🔌 Extensão: *Markdown Preview Enhanced*  
+- ✨ Recursos:
+  - Renderização local
+  - Exportação para PNG / SVG / PDF
+- 👍 Recomendado para: quem já usa VS Code
+
+---
+
+### 2. **Typora**
+- 💻 **URL:** https://typora.io
+- ✨ Recursos:
+  - Markdown WYSIWYG
+  - Suporte integrado ao Mermaid
+- 👍 Recomendado para: quem quer escrever e visualizar tudo no mesmo lugar
+
+---
+
+### 3. **Obsidian (modo offline)**
+- 💻 Funciona 100% local
+- ✨ Recursos:
+  - Suporte ao Mermaid
+  - Plugins poderosos
+- 👍 Recomendado para: documentação técnica local
+
+---
+
+### 4. **HackMD (modo desktop via Electron)**
+- 🌐 **URL:** https://hackmd.io
+- ✨ Recursos:
+  - Markdown colaborativo
+  - Suporte a Mermaid
+- 👍 Recomendado para: equipes que editam offline e sincronizam depois
+
+---
+
+### 5. **Zettlr**
+- 💻 **URL:** https://zettlr.com
+- ✨ Recursos:
+  - Editor acadêmico
+  - Suporte completo a Markdown + Mermaid
+- 👍 Recomendado para: uso profissional e científico
+
+---
+
+---
+
+## 🧭 Qual editor escolher?
+
+| Necessidade | Editor recomendado |
+|------------|-------------------|
+| Simples e rápido (online) | Mermaid Live Editor |
+| Interface moderna | Mermaid Flow |
+| Trabalho em equipe | Mermaid Chart |
+| Pré‑visualização rápida | Mermaid Viewer |
+| Desktop + controle total | VS Code |
+| Documentação longa | Typora ou Obsidian |
+
+---
