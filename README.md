@@ -15,7 +15,7 @@
 11. [Lista de Tarefas](#lista-de-tarefas)
 12. [Emoji](#emoji)
 13. [Mermaid](#mermaid)
-14. [Editores Marmaid](#editores-marmaid)
+14. [Editores Mermaid](#editores-mermaid)
 
 ---
 
@@ -821,11 +821,13 @@ flowchart TD
     VALIDA_2FA -->|"Sim"| SESSAO
 
 ```
+
+---
+
 # Editores Mermaid 
 
 Editores **online** e **offline** para criar diagramas utilizando **Mermaid.js**, incluindo links, recursos e recomendações.
 
----
 
 ##  Editores Online
 
