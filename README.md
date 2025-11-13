@@ -301,55 +301,82 @@ Para fazer uma lista de tarefas é necessário utilizar um formato específico p
 
 --- 
 
+# O que é Mermaid
 
-**Gantt (cronograma)**
+**Mermaid** é uma **linguagem de marcação baseada em texto** que permite
+criar **diagramas e gráficos automaticamente**, muito utilizada em
+documentação técnica, especialmente em arquivos Markdown como
+`README.md`.
 
-
-```mermaid
-gantt
-  title Projeto X
-  dateFormat  YYYY-MM-DD
-  section Planejamento
-    Levantamento      :a1, 2025-11-01, 5d
-    Análise           :a2, after a1, 5d
-  section Execução
-    Desenvolvimento    :b1, 2025-11-15, 10d
-    Testes             :b2, after b1, 7d
-```
----
-**info da versão**
-
-```mermaid
-info
-```
 ---
 
+## 📌 Definição simples
 
+**Mermaid é uma linguagem que transforma texto em diagramas.**
 
-**Flowchart**
+Você escreve um código simples e o Mermaid renderiza fluxos, UML, mapas
+mentais, gráficos, diagramas de estado e muito mais.
 
-```mermaid
-flowchart LR
-  A[Cliente] --> B[API]
-  B --> C[(Banco de Dados)]
-```
+---
 
---- 
+## 📌 Para que serve
 
-**Diagrama de sequência**
+-   Criar **diagramas rápidos** sem ferramentas gráficas.
+-   Documentar sistemas, processos e fluxos.
+-   Manter diagramas **dentro do próprio código**.
+-   Facilitar colaboração em equipes.
+-   Automatizar a criação de documentação técnica.
 
+---
 
-```mermaid
-sequenceDiagram
-  participant User
-  participant App
-  participant DB
+## Onde isso funciona no GitHub
 
-  User->>App: Faz login
-  App->>DB: Verifica credenciais
-  DB-->>App: Ok
-  App-->>User: Login bem-sucedido
-```
+Você pode usar 
+
+- Arquivos Markdown (`README.md`, docs, etc.)
+- Issues
+- Pull requests
+- Discussions
+- Wikis
+
+---
+
+##  Exemplo de Mermaid
+
+    ```mermaid
+    flowchart LR
+        A --> B
+        B --> C
+    ```
+---
+
+##  Tipos de diagramas suportados
+
+-   **Flowchart** (Fluxograma)
+-   **Sequence Diagram**
+-   **Class Diagram (UML)**
+-   **ER Diagram**
+-   **Gantt Chart**
+-   **Mindmap**
+-   **State Machine**
+-   **User Journey**
+-   **Pie Chart**
+-   **Git Graph**
+
+---
+
+##  Origem e contexto
+
+Mermaid foi criada para facilitar a criação de diagramas diretamente no
+código-fonte, evitando ferramentas externas como Draw.io.\
+Hoje é suportada por:
+
+-   GitHub\
+-   GitLab\
+-   Notion\
+-   Obsidian\
+-   Vários editores de Markdown
+
 
 ---
 
@@ -367,17 +394,9 @@ graph TD;
 
 Quando você salva e visualiza o arquivo no GitHub, ele renderiza o **fluxograma**, não o texto.
 
-### 3. Onde isso funciona no GitHub
 
-Você pode usar 
 
-- Arquivos Markdown (`README.md`, docs, etc.)
-- Issues
-- Pull requests
-- Discussions
-- Wikis
-
-### 4. Exemplos de tipos de diagrama
+## Exemplos de tipos de diagrama
 
 Alguns exemplos simples que funcionam direto no GitHub:
 
@@ -422,7 +441,7 @@ gantt
 ```
 
 
-### 5. Conferir a versão do Mermaid usada pelo GitHub
+## Conferir a versão do Mermaid usada pelo GitHub
 
 Se algum recurso novo não renderizar, você pode checar a versão do Mermaid que o GitHub está usando:
 
@@ -432,14 +451,14 @@ info
 
 Isso mostra a versão e algumas infos no próprio render do diagrama. :contentReference[oaicite:2]{index=2}  
 
-### 6. Dica prática de fluxo de trabalho
+## Dica prática de fluxo de trabalho
 
 1. **Teste o diagrama no Mermaid Live Editor** (mermaid.live) para ver se a sintaxe está certa. :contentReference[oaicite:3]{index=3}  
 2. Quando estiver ok, copie o código.
 3. Cole dentro de um bloco ` ```mermaid` no seu `README.md` ou documentação.
 4. Commita e veja o resultado no GitHub.
 
-🎨 Exemplos práticos de Mermaid (para usar no GitHub)
+##  Exemplos práticos de Mermaid (para usar no GitHub)
 
 
 1. Fluxograma detalhado (Flowchart com estilos)
