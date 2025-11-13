@@ -691,10 +691,15 @@ classDiagram
       +acionarCarga()
     }
 
-    interface MQTTClient {
+    class MQTTClient {
       +conectar()
       +publicar(topico, payload)
       +assinar(topico)
+    }
+
+    class Gateway {
+      +listaDispositivos
+      +registrarDispositivo()
     }
 
     Dispositivo <|-- Sensor
@@ -702,12 +707,10 @@ classDiagram
     Sensor <|-- SensorTemperatura
     Atuador <|-- Rele
 
-    class Gateway {
-      +listaDispositivos
-      +registrarDispositivo()
-    }
-
     Gateway "1" o-- "*" Dispositivo : gerencia
-    Gateway ..|> MQTTClient
+    Gateway <|.. MQTTClient
+
+    MQTTClient <<interface>>
+
 ```
 
