@@ -747,7 +747,7 @@ gantt
 ```
 ### 16. Sistema IoT (sensores, MQTT, dashboard, banco de dados)
 
-```mermeid
+```mermaid
 flowchart LR
     subgraph Dispositivos IoT
         S1[Sensor Temp/Umid #1]
