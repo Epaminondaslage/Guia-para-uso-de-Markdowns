@@ -710,7 +710,7 @@ classDiagram
     Gateway "1" o-- "*" Dispositivo : gerencia
     Gateway <|.. MQTTClient
 
-    MQTTClient <<interface>>
+    <<interface>> MQTTClient
 
 ```
 
