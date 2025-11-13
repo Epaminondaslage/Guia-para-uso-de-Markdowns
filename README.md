@@ -1,5 +1,5 @@
 
-# Guia para Uso de Markdown no GitHub
+# Guia para Uso de Markdown e Mermaid no GitHub
 
 ##  Índice
 1. [Introdução](#introdução)
