@@ -787,7 +787,9 @@ flowchart LR
 
 ```
 
---- 
+### 16. Fluxo de autenticação com 2FA, bloqueio e recuperação de conta 
+
+
 ```mermaid
 flowchart TD
     START([Início]) --> FORM["Usuário envia usuário e senha"]
