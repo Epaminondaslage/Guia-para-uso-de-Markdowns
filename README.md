@@ -310,7 +310,7 @@ documentação técnica, especialmente em arquivos Markdown como
 
 ---
 
-## 📌 Definição simples
+##  Definição simples
 
 **Mermaid é uma linguagem que transforma texto em diagramas.**
 
@@ -319,7 +319,7 @@ mentais, gráficos, diagramas de estado e muito mais.
 
 ---
 
-## 📌 Para que serve
+##  Para que serve
 
 -   Criar **diagramas rápidos** sem ferramentas gráficas.
 -   Documentar sistemas, processos e fluxos.
@@ -396,51 +396,6 @@ Quando você salva e visualiza o arquivo no GitHub, ele renderiza o **fluxograma
 
 
 
-## Exemplos de tipos de diagrama
-
-Alguns exemplos simples que funcionam direto no GitHub:
-
-**Flowchart**
-
-
-```mermaid
-flowchart LR
-  A[Cliente] --> B[API]
-  B --> C[(Banco de Dados)]
-```
-
-**Diagrama de sequência**
-
-
-```mermaid
-sequenceDiagram
-  participant User
-  participant App
-  participant DB
-
-  User->>App: Faz login
-  App->>DB: Verifica credenciais
-  DB-->>App: Ok
-  App-->>User: Login bem-sucedido
-```
-
----
-
-**Gantt (cronograma)**
-
-```mermaid
-gantt
-  title Projeto X
-  dateFormat  YYYY-MM-DD
-  section Planejamento
-    Levantamento      :a1, 2025-11-01, 5d
-    Análise           :a2, after a1, 5d
-  section Execução
-    Desenvolvimento    :b1, 2025-11-15, 10d
-    Testes             :b2, after b1, 7d
-```
-
-
 ## Conferir a versão do Mermaid usada pelo GitHub
 
 Se algum recurso novo não renderizar, você pode checar a versão do Mermaid que o GitHub está usando:
@@ -461,7 +416,7 @@ Isso mostra a versão e algumas infos no próprio render do diagrama. :contentRe
 ##  Exemplos práticos de Mermaid (para usar no GitHub)
 
 
-1. Fluxograma detalhado (Flowchart com estilos)
+## 1. Fluxograma detalhado (Flowchart com estilos)
 
 ```mermaid
 flowchart TD
@@ -476,7 +431,7 @@ flowchart TD
     style F fill:#0f0,stroke:#333,stroke-width:2px
 ```
 
-2. Diagrama de Classes UML
+## 2. Diagrama de Classes UML
 
 ```mermaid
 classDiagram
@@ -499,7 +454,7 @@ classDiagram
 ```
 ---
 
-3. Diagrama de Estado (State Machine)
+## 3. Diagrama de Estado (State Machine)
 
 ```mermaid
 stateDiagram-v2
@@ -511,7 +466,7 @@ stateDiagram-v2
     Concluido --> [*]
 ```
 
-4. Diagrama de Entidade-Relacionamento (ERD)
+## 4. Diagrama de Entidade-Relacionamento (ERD)
 
 ```mermaid
 erDiagram
@@ -534,7 +489,7 @@ erDiagram
     }
 ```
 
-5. Diagrama de Jornada do Usuário
+## 5. Diagrama de Jornada do Usuário
 
 ```mermaid
 journey
@@ -551,7 +506,7 @@ journey
 ```
 ---
 
-6. Mapa Mental (Mindmap)
+## 6. Mapa Mental (Mindmap)
 
 ```mermaid
 mindmap
@@ -574,7 +529,7 @@ mindmap
 ```
 ---
 
-7. Diagrama de Sequência com Loop e Condição
+## 7. Diagrama de Sequência com Loop e Condição
    
 ```mermaid
 sequenceDiagram
@@ -600,7 +555,7 @@ sequenceDiagram
     end
 ```
 
-8. Gráfico de Gantt com dependências
+## 8. Gráfico de Gantt com dependências
 
 ```mermaid
 gantt
@@ -622,7 +577,7 @@ gantt
 ```
 ---
 
-9. Diagrama de Fluxo Git
+## 9. Diagrama de Fluxo Git
 
 ```mermaid
 gitGraph
@@ -637,7 +592,7 @@ gitGraph
     commit id:"release"
 ```
 
-10. Gráfico de Usuários (Pie Chart)
+## 10. Gráfico de Usuários (Pie Chart)
 
 ```mermaid
 pie title Distribuição de usuários
@@ -645,3 +600,40 @@ pie title Distribuição de usuários
     "Desktop" : 35
     "Tablet" : 10
 ```
+
+## 11. Git Graph
+```mermaid
+gitGraph
+    commit id:"init"
+    branch feature
+    checkout feature
+    commit id:"feature-1"
+    commit id:"feature-2"
+    checkout main
+    merge feature
+    commit id:"release"
+```
+
+## 12. Quadrant Chart
+```mermaid
+quadrantChart
+    title Matriz de Prioridade
+    x-axis Baixa --> Alta
+    y-axis Fácil --> Difícil
+
+    A[Melhorias simples] : 0.2 : 0.3
+    B[Tarefas rápidas] : 0.7 : 0.2
+    C[Projetos grandes] : 0.8 : 0.8
+    D[Ganhos médios] : 0.3 : 0.7
+```
+
+## 13. Timeline
+```mermaid
+timeline
+    title Evolução do Projeto
+    2024 : Ideia inicial
+    2025 : Desenvolvimento
+    2026 : Testes
+    2027 : Lançamento
+```
+
