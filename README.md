@@ -304,7 +304,7 @@ Para fazer uma lista de tarefas é necessário utilizar um formato específico p
 
 **Gantt (cronograma)**
 
-```markdown
+
 ```mermaid
 gantt
   title Projeto X
@@ -316,7 +316,8 @@ gantt
     Desenvolvimento    :b1, 2025-11-15, 10d
     Testes             :b2, after b1, 7d
 
-``markdown
+---
+
 ```mermaid
 info
 
