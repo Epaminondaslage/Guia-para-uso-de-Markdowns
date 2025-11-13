@@ -473,6 +473,33 @@ mindmap
       UI
       UX
 ```
+
+
+```mindmap
+  root((Arquitetura IoT))
+    Dispositivos
+      ESP32
+      ESP8266
+      Arduino
+    Comunicação
+      MQTT
+      HTTP
+      WebSocket
+    Serviços
+      Broker MQTT
+      API REST
+      Banco de Dados
+        MySQL
+        MariaDB
+        InfluxDB
+    Frontend
+      Dashboard Web
+      App Mobile
+    Infraestrutura
+      Docker
+      Servidor Local
+      Nuvem
+```
 ---
 
 ### 7. Diagrama de Sequência com Loop e Condição
