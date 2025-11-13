@@ -635,3 +635,79 @@ timeline
     2026 : Testes
     2027 : Lançamento
 ```
+
+```mermaid
+timeline
+    title Linha do Tempo do Sistema de Monitoramento
+    2024-01 : Ideia inicial
+    2024-03 : Prova de conceito com ESP32
+    2024-06 : Integração com MQTT e dashboard
+    2024-09 : Implantação em ambiente de testes
+    2025-01 : Versão 1.0 em produção
+    2025-06 : Integração com app mobile
+```
+
+
+### 13. Quadrant Chart com legendas úteis
+
+```mermaid
+quadrantChart
+    title Priorização de Tarefas
+    x-axis Baixo impacto --> Alto impacto
+    y-axis Baixo esforço --> Alto esforço
+
+    A[Correção de bug crítico] : 0.9 : 0.6
+    B[Melhoria visual do painel] : 0.4 : 0.3
+    C[Refatoração profunda] : 0.5 : 0.9
+    D[Nova funcionalidade premium] : 0.8 : 0.8
+```
+
+### 14. Class Diagram com herança, interface e composição
+
+```mermaid
+classDiagram
+    class Dispositivo {
+      +String id
+      +ligar()
+      +desligar()
+    }
+
+    class Sensor {
+      +float valor
+      +ler()
+    }
+
+    class Atuador {
+      +acionar()
+    }
+
+    class SensorTemperatura {
+      +float temperaturaC
+      +converterParaF()
+    }
+
+    class Rele {
+      +int canal
+      +acionarCarga()
+    }
+
+    interface MQTTClient {
+      +conectar()
+      +publicar(topico, payload)
+      +assinar(topico)
+    }
+
+    Dispositivo <|-- Sensor
+    Dispositivo <|-- Atuador
+    Sensor <|-- SensorTemperatura
+    Atuador <|-- Rele
+
+    class Gateway {
+      +listaDispositivos
+      +registrarDispositivo()
+    }
+
+    Gateway "1" o-- "*" Dispositivo : gerencia
+    Gateway ..|> MQTTClient
+```
+
