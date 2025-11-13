@@ -603,7 +603,28 @@ gitGraph
     merge feature
     commit id:"release"
 ```
+**Git Graph simulando flow de branches**
 
+```marmaid
+gitGraph
+    commit id:"init"
+    branch develop
+    checkout develop
+    commit id:"setup-projeto"
+    branch feature-login
+    checkout feature-login
+    commit id:"tela-login"
+    commit id:"validacao-frontend"
+    checkout develop
+    merge feature-login id:"merge-login"
+    branch feature-dashboard
+    checkout feature-dashboard
+    commit id:"cards-status"
+    checkout develop
+    merge feature-dashboard id:"merge-dashboard"
+    checkout main
+    merge develop id:"release-v1.0"
+```
 
 ### 12. Timeline
 ```mermaid
