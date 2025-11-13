@@ -786,3 +786,34 @@ flowchart LR
     MQTT_ALR --> ESP_ALR["ESP32 - Aciona sirene"]
 
 ```
+
+--- 
+```mermaid
+flowchart TD
+    START([Início]) --> FORM[Usuário envia<br/>usuário + senha]
+
+    FORM --> AUTH{Credenciais corretas?}
+    AUTH -->|Não| ERRO_LOGIN[Incrementa contador<br/>de falhas]
+    ERRO_LOGIN --> LIMITE{Ultrapassou limite<br/>de tentativas?}
+
+    LIMITE -->|Sim| BLOQ[Bloquear conta<br/>temporariamente]
+    BLOQ --> MSG_BLOQ[Exibir mensagem de conta bloqueada]
+    MSG_BLOQ --> FIM([Fim])
+
+    LIMITE -->|Não| MSG_ERRO[Exibir erro de login]
+    MSG_ERRO --> START
+
+    AUTH -->|Sim| VER_2FA{2FA habilitado?}
+    VER_2FA -->|Não| SESSAO[Gerar sessão e token]
+    SESSAO --> DASH[Redirecionar para dashboard]
+    DASH --> FIM
+
+    VER_2FA -->|Sim| ENVIA_2FA[Enviar código 2FA<br/>(app, SMS ou e-mail)]
+    ENVIA_2FA --> FORM_2FA[Usuário digita código 2FA]
+    FORM_2FA --> VALIDA_2FA{Código válido?}
+
+    VALIDA_2FA -->|Não| ERRO_2FA[Exibir erro 2FA]
+    ERRO_2FA --> FORM_2FA
+
+    VALIDA_2FA -->|Sim| SESSAO
+```
