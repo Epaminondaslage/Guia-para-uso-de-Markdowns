@@ -474,8 +474,8 @@ mindmap
       UX
 ```
 
-
-```mindmap
+```mermaid
+mindmap
   root((Arquitetura IoT))
     Dispositivos
       ESP32
