@@ -652,14 +652,18 @@ timeline
 
 ```mermaid
 quadrantChart
-    title Priorização de Tarefas
-    x-axis Baixo impacto --> Alto impacto
-    y-axis Baixo esforço --> Alto esforço
+    title Priorizacao de Tarefas
+    x-axis "Baixo impacto" --> "Alto impacto"
+    y-axis "Baixo esforço" --> "Alto esforço"
+    quadrant-1 Alta prioridade
+    quadrant-2 Avaliar depois
+    quadrant-3 Pode esperar
+    quadrant-4 Baixa prioridade
 
-    A[Correção de bug crítico] : 0.9 : 0.6
-    B[Melhoria visual do painel] : 0.4 : 0.3
-    C[Refatoração profunda] : 0.5 : 0.9
-    D[Nova funcionalidade premium] : 0.8 : 0.8
+    "Correção de bug crítico": [0.9, 0.6]
+    "Melhoria visual do painel": [0.4, 0.3]
+    "Refatoração profunda": [0.5, 0.9]
+    "Nova funcionalidade premium": [0.8, 0.8]
 ```
 
 ### 14. Class Diagram com herança, interface e composição
