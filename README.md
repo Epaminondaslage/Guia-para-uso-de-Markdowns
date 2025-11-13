@@ -605,7 +605,7 @@ gitGraph
 ```
 **Git Graph simulando flow de branches**
 
-```marmaid
+```mermaid
 gitGraph
     commit id:"init"
     branch develop
