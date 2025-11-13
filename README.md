@@ -298,3 +298,21 @@ Para fazer uma lista de tarefas é necessário utilizar um formato específico p
 - 🥂 (brinde/taças): 🥂
 - 🔦 (lanterna): 🔦
 - 🗺️ (mapa): 🗺️
+
+--- 
+
+
+**Gantt (cronograma)**
+
+```markdown
+```mermaid
+gantt
+  title Projeto X
+  dateFormat  YYYY-MM-DD
+  section Planejamento
+    Levantamento      :a1, 2025-11-01, 5d
+    Análise           :a2, after a1, 5d
+  section Execução
+    Desenvolvimento    :b1, 2025-11-15, 10d
+    Testes             :b2, after b1, 7d
+
