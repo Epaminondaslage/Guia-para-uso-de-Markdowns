@@ -317,9 +317,42 @@ gantt
     Testes             :b2, after b1, 7d
 ```
 ---
+**info da versão**
 
 ```mermaid
 info
 ```
+---
+
+
+
+**Flowchart**
+
+```mermaid
+flowchart LR
+  A[Cliente] --> B[API]
+  B --> C[(Banco de Dados)]
+```
+
+--- 
+
+**Diagrama de sequência**
+
+
+```mermaid
+sequenceDiagram
+  participant User
+  participant App
+  participant DB
+
+  User->>App: Faz login
+  App->>DB: Verifica credenciais
+  DB-->>App: Ok
+  App-->>User: Login bem-sucedido
+```
+
+
+
+
 
 
