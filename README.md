@@ -749,39 +749,40 @@ gantt
 
 ```mermaid
 flowchart LR
-    subgraph Dispositivos IoT
-        S1[Sensor Temp/Umid #1]
-        S2[Sensor Temp/Umid #2]
-        S3[ESP32 - Energia]
+    subgraph Dispositivos_IoT
+        S1["Sensor Temp Umid 1"]
+        S2["Sensor Temp Umid 2"]
+        S3["ESP32 - Energia"]
     end
 
-    S1 -->|MQTT publish<br/>/sala1/dados| BRK[(Broker MQTT)]
-    S2 -->|MQTT publish<br/>/sala2/dados| BRK
-    S3 -->|MQTT publish<br/>/energia/dados| BRK
+    S1 -->|"MQTT publish /sala1/dados"| BRK[(Broker MQTT)]
+    S2 -->|"MQTT publish /sala2/dados"| BRK
+    S3 -->|"MQTT publish /energia/dados"| BRK
 
     subgraph Backend
-        SUB[Subscriber MQTT<br/>coletor.php]
-        PROC[Processar payloads<br/>(normalizar / validar)]
-        DB[(Banco de Dados<br/>MariaDB)]
+        SUB["Subscriber MQTT coletor.php"]
+        PROC["Processar payloads (normalizar e validar)"]
+        DB["Banco de Dados MariaDB"]
     end
 
     BRK --> SUB
     SUB --> PROC
-    PROC -->|INSERT| DB
+    PROC -->|"INSERT"| DB
 
-    subgraph Dashboard Web
-        WEB[Frontend HTML/JS]
-        API[API REST PHP]
+    subgraph Dashboard_Web
+        WEB["Frontend HTML JS"]
+        API["API REST PHP"]
     end
 
-    WEB -->|GET /api/dados| API
-    API -->|SELECT| DB
+    WEB -->|"GET /api/dados"| API
+    API -->|"SELECT"| DB
     DB --> API
     API --> WEB
 
-    WEB --> USER[Usuário Visualiza<br/>Gráficos e Alarmes]
+    WEB --> USER["Usuario visualiza graficos e alarmes"]
 
     %% Alarmes
-    PROC -->|Regra de limite excedido| MQTT_ALR[(MQTT /alarme)]
-    MQTT_ALR --> ESP_ALR[ESP32 - Aciona Sirene]
+    PROC -->|"Regra de limite excedido"| MQTT_ALR[(MQTT alarme)]
+    MQTT_ALR --> ESP_ALR["ESP32 - Aciona sirene"]
+
 ```
