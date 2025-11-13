@@ -1,152 +1,116 @@
 
+# Guia para Uso de Markdown no GitHub
 
-# Guia para uso de Markdowns para Github
+##  Índice
+1. [Introdução](#introdução)
+2. [Cabeçalhos](#cabeçalhos)
+3. [Ênfase em textos](#ênfase-em-textos)
+4. [Blocos de citação](#blocos-de-citação)
+5. [Links](#links)
+6. [Imagens](#imagens)
+7. [Listas Não Ordenadas](#listas-não-ordenadas)
+8. [Listas Ordenadas](#listas-ordenadas)
+9. [Comentários](#comentários)
+10. [Tabelas](#tabelas)
+11. [Lista de Tarefas](#lista-de-tarefas)
+12. [Emoji](#emoji)
+13. [Mermaid](#mermaid)
 
-1. [Introdução](#Introdução)
-2. [Cabeçalhos](#Cabeçalhos)
-3. [Enfase em textos](#Enfase-em-textos)
-4. [Blocos de citação](#Blocos-de-citação)
-5. [Links](#Links)
-6. [Imagens](#Imagens)
-7. [Listas Não Ordenadas](#Listas-Não-Ordenadas)
-8. [Listas Ordenadas](#Listas-Ordenadas)
-9. [Comentários](#Comentários)
-10. [Tabelas](#Tabelas)
-11. [Lista de Tarefas](#Lista-de-Tarefas)
-12. [Marmeid](#Marmaid)
+---
 
 ## Introdução
 
-Markdown é uma linguagem de marcação leve que permite formatar texto de maneira simples e legível, utilizando símbolos e caracteres comuns. Foi criada por John Gruber e Aaron Swartz em 2004, com o objetivo de ser uma linguagem fácil de escrever e de ler em sua forma "bruta", ou seja, sem renderização.
-
-A principal característica do Markdown é que ele pode ser convertido para HTML e outros formatos, permitindo que você escreva documentos que serão exibidos com uma formatação adequada em navegadores ou outras plataformas. Ao mesmo tempo, o texto em Markdown permanece legível e simples, mesmo sem renderização.
-
-Markdown é amplamente usado em plataformas como GitHub, Stack Overflow, editores de textos de desenvolvedores, e sistemas de documentação. É fácil de aprender e ideal para criar conteúdo formatado sem a complexidade de linguagens de marcação mais pesadas, como o HTML.
-
-## Cabeçalhos 
-
-Para cabeçalhos, utilizamos `#` e a cada `#` adicionado representa um nível, indo de 1 a 6, seguindo exemplo abaixo:
-
-# Cabeçalho 1 
-## Cabeçalho 2 
-### Cabeçalho 3 
-#### Cabeçalho 4 
-##### Cabeçalho 5 
-###### Cabeçalho 6
-
-## Enfase em textos
-
-Para enfase em um texto, podemos utilizar algumas atribuições como: Negrito, Itálico, Riscado... entre outros, conforme exemplo abaixo:
-
-### Negrito
-
-Este é um texto em **negrito** . Para utilizar essa marcação é necessário utilizar a palavra entre asteriscos `**`
-
-### Itálico
-
-Este é um texto em _itálico_. Para utilizar essa marcação é necessário utilizar a palavra entre underlines `_texto aqui_`
-
-
-### Riscado
-
-Este é um texto em ~~Riscado~~. Para utilizar essa marcação é necessário utilizar a palavra entre til `~~texto_aqui~~`
-
-
-### Linha horizontal
-
-Se você deseja fazer uma linha horizontal para dividir conteúdos, você pode utilizar `---` ou `___` 
+Markdown é uma linguagem de marcação leve que permite formatar texto de maneira simples e legível, utilizando símbolos e caracteres comuns. Foi criada por John Gruber e Aaron Swartz em 2004...
 
 ---
- --Texto entre as linhas-- 
-___
+
+## Cabeçalhos
+
+Para cabeçalhos, utilizamos `#`...
+
+# Cabeçalho 1
+## Cabeçalho 2
+### Cabeçalho 3
+#### Cabeçalho 4
+##### Cabeçalho 5
+###### Cabeçalho 6
+
+---
+
+## Ênfase em textos
+
+### Negrito  
+**texto** → `**texto**`
+
+### Itálico  
+_texto_ → `_texto_`
+
+### Riscado  
+~~texto~~ → `~~texto~~`
+
+### Linha Horizontal  
+`---` ou `___`
+
+---
 
 ## Blocos de citação
-
-Esse bloco de citação é criado utilizando o símbolo > no início da linha, e você pode formatar tanto a citação quanto o nome do autor como desejar. A citação é geralmente destacada na renderização com uma barra lateral ou um recuo.
 
 > "A simplicidade é a maior sofisticação."  
 > – Leonardo da Vinci
 
+---
 
 ## Links
 
-O texto que queremos utilizar para o link vai entre `[]` e o link vai entre `()` logo após o texto.
-
 [Epaminondas Lage](https://github.com/Epaminondaslage)
 
-Se você deseja adicionar um título par ao link que você está criando (para aparecer quando você posiciona o mouse no link), é só você dar um espaço após o `()` e adicionar o texto do título entre aspas 
-
-[Epaminondas Lage Github](https://github.com/Epaminondaslage) "Pagina do GitHub do Epaminondas"
+---
 
 ## Imagens
 
-A imagem deve estar depois de `![texto_legenda]` seguido por entre `()` com o link da imagem.
-
-```![imagem](https://github.com/Epaminondaslage/Kit-IoT/blob/master/img/Logo_CEFET-MG.png)```
+```
+![imagem](https://github.com/Epaminondaslage/Kit-IoT/blob/master/img/Logo_CEFET-MG.png)
+```
 
 ![imagem](https://github.com/Epaminondaslage/Kit-IoT/blob/master/img/Logo_CEFET-MG.png)
 
-ou em formato html
-
-```<td style="width: 30%;"><img src="https://github.com/Epaminondaslage/Lab-IoT-ELE-CEFET/blob/master/img/Logo_CEFET-MG.png" width="30%" /></td>```
-
-<td style="width: 30%;"><img src="https://github.com/Epaminondaslage/Lab-IoT-ELE-CEFET/blob/master/img/Logo_CEFET-MG.png" width="30%" /></td>
+---
 
 ## Listas Não Ordenadas
 
-Para criação de listas não ordenadas é necessário colocar o asterisco `-  Item` antes do item para criar a lista. Exemplo:
+- Item 1
+- Item 2
+  - Subitem 1
+    - Subitem 2
+       - Subitem 3
 
--  Item 1
--  Item 2
--  Item 3
-
-Se você deseja criar ` _sub itens_ `-  dentro da lista, é só realizar a identação na lista, conforme exemplo:
-
--  Item 1
--  Item 2
-  - Sub item 1
-    - Sub item 2
-       - Sub item 3
+---
 
 ## Listas Ordenadas
-
-Para listas ordenadas, é necessário colocar os números `1. Item 1`  antes do item para criar a lista. Exemplo:
 
 1. Primeiro item
 2. Segundo item
 3. Terceiro item
-  
-As sublistas são criadas com dois espaços de indentação, mas a numeração é automática.
 
+---
 
+## Comentários
 
-## Comentários 
+### Comentário HTML
 
-Em Markdown, a sintaxe de comentário pode ser feita usando os seguintes padrões, embora comentários não sejam parte oficial do Markdown e não sejam exibidos em muitos renderizadores:
-
-
-#### Comentário simples (em HTML)
-
-Use a sintaxe de comentário do HTML. Esse tipo de comentário não será exibido no resultado renderizado.
-
-markdown
 ```
-<!-- Este é um comentário e não será exibido -->
+<!-- Este é um comentário -->
 ```
 
-#### Várias linhas de código em forma de comentário
+### Exemplos de Código:
 
-Para colocar um bloco de códigos em forma comentários, é necessário utilizar  ```html código```  e também é `_recomendado_`  que você coloque a linguagem em que aquele bloco de código está escrito, para facilitar a marcação de palavras reservadas daquela linguagem.
-
-#### Html
+#### HTML
 
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá, Mundo!</title>
 </head>
 <body>
     <h1>Olá, Mundo!</h1>
@@ -159,63 +123,43 @@ Para colocar um bloco de códigos em forma comentários, é necessário utilizar
 ```bash
 ls
 pip install pandas
-pip install --upgrade --user pandas
-
 ```
 
-#### Prompt de Comando
+#### CMD
 
 ```cmd
-cd C:\\User\YourUser\Desktop
+cd C:\\User\\YourUser\\Desktop
 mkdir Folder
 ```
 
 #### Python
 
 ```python
-# Solicita ao usuário dois números
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
-
-# Calcula a soma dos dois números
-soma = numero1 + numero2
-
-# Exibe o resultado
-print(f"A soma de {numero1} e {numero2} é {soma}.")
+numero1 = float(input("Digite: "))
+numero2 = float(input("Digite: "))
+print(numero1 + numero2)
 ```
 
+---
+
 ## Tabelas
-
-Para criar tabelas é necessário utilizar um formato específico para o Github, conforme bloco de códigos abaixo:
-
-
-| Cabeçalho | Cabeçalho | Cabeçalho |
-| --- | --- | --- |
-| conteúdo | conteúdo | conteúdo |
-| conteúdo | conteúdo | conteúdo |
-
 
 | Nome | Tipo | Ataque |
 | --- | --- | --- |
 | Pikachu | Elétrico | 50 |
 | Charmander | Fogo | 50 |
 
+---
+
 ## Lista de Tarefas
 
-Para fazer uma lista de tarefas é necessário utilizar um formato específico para o Github, conforme bloco de códigos abaixo:
-
-
-- [x] Item completado
 - [x] Item completado
 - [ ] Item não completado
 
+---
 
-- [x] Criar arquivo guia para Readme no Github
-- [x] Commit das mudanças
-- [ ] Envio das mudanças para o repositório</pre>
+## Emoji
 
-
-### Uso direto de Emoji
 - ⭐ (estrela): ⭐
 - 🔥 (fogo): 🔥
 - 📞 (telefone): 📞
@@ -299,10 +243,11 @@ Para fazer uma lista de tarefas é necessário utilizar um formato específico p
 - 🥂 (brinde/taças): 🥂
 - 🔦 (lanterna): 🔦
 - 🗺️ (mapa): 🗺️
+---
 
---- 
+# Mermaid
 
-# O que é Mermaid
+### O que é Mermaid
 
 **Mermaid** é uma **linguagem de marcação baseada em texto** que permite
 criar **diagramas e gráficos automaticamente**, muito utilizada em
@@ -311,7 +256,7 @@ documentação técnica, especialmente em arquivos Markdown como
 
 ---
 
-##  Definição simples
+###  Definição simples
 
 **Mermaid é uma linguagem que transforma texto em diagramas.**
 
@@ -320,7 +265,7 @@ mentais, gráficos, diagramas de estado e muito mais.
 
 ---
 
-##  Para que serve
+###  Para que serve
 
 -   Criar **diagramas rápidos** sem ferramentas gráficas.
 -   Documentar sistemas, processos e fluxos.
@@ -330,7 +275,7 @@ mentais, gráficos, diagramas de estado e muito mais.
 
 ---
 
-## Onde isso funciona no GitHub
+### Onde isso funciona no GitHub
 
 Você pode usar 
 
@@ -342,7 +287,7 @@ Você pode usar
 
 ---
 
-##  Exemplo de Mermaid
+###  Exemplo de Mermaid
 
     ```mermaid
     flowchart LR
@@ -351,7 +296,7 @@ Você pode usar
     ```
 ---
 
-##  Tipos de diagramas suportados
+###  Tipos de diagramas suportados
 
 -   **Flowchart** (Fluxograma)
 -   **Sequence Diagram**
@@ -366,7 +311,7 @@ Você pode usar
 
 ---
 
-##  Origem e contexto
+###  Origem e contexto
 
 Mermaid foi criada para facilitar a criação de diagramas diretamente no
 código-fonte, evitando ferramentas externas como Draw.io.\
@@ -397,7 +342,7 @@ Quando você salva e visualiza o arquivo no GitHub, ele renderiza o **fluxograma
 
 
 
-## Conferir a versão do Mermaid usada pelo GitHub
+### Conferir a versão do Mermaid usada pelo GitHub
 
 Se algum recurso novo não renderizar, você pode checar a versão do Mermaid que o GitHub está usando:
 
@@ -407,17 +352,17 @@ info
 
 Isso mostra a versão e algumas infos no próprio render do diagrama. :contentReference[oaicite:2]{index=2}  
 
-## Dica prática de fluxo de trabalho
+### Dica prática de fluxo de trabalho
 
 1. **Teste o diagrama no Mermaid Live Editor** (mermaid.live) para ver se a sintaxe está certa. :contentReference[oaicite:3]{index=3}  
 2. Quando estiver ok, copie o código.
 3. Cole dentro de um bloco ` ```mermaid` no seu `README.md` ou documentação.
 4. Commita e veja o resultado no GitHub.
 
-##  Exemplos práticos de Mermaid (para usar no GitHub)
+###  Exemplos práticos de Mermaid (para usar no GitHub)
 
 
-## 1. Fluxograma detalhado (Flowchart com estilos)
+### 1. Fluxograma detalhado (Flowchart com estilos)
 
 ```mermaid
 flowchart TD
@@ -432,7 +377,7 @@ flowchart TD
     style F fill:#0f0,stroke:#333,stroke-width:2px
 ```
 
-## 2. Diagrama de Classes UML
+### 2. Diagrama de Classes UML
 
 ```mermaid
 classDiagram
@@ -455,7 +400,7 @@ classDiagram
 ```
 ---
 
-## 3. Diagrama de Estado (State Machine)
+### 3. Diagrama de Estado (State Machine)
 
 ```mermaid
 stateDiagram-v2
@@ -467,7 +412,7 @@ stateDiagram-v2
     Concluido --> [*]
 ```
 
-## 4. Diagrama de Entidade-Relacionamento (ERD)
+### 4. Diagrama de Entidade-Relacionamento (ERD)
 
 ```mermaid
 erDiagram
@@ -490,7 +435,7 @@ erDiagram
     }
 ```
 
-## 5. Diagrama de Jornada do Usuário
+### 5. Diagrama de Jornada do Usuário
 
 ```mermaid
 journey
@@ -507,7 +452,7 @@ journey
 ```
 ---
 
-## 6. Mapa Mental (Mindmap)
+### 6. Mapa Mental (Mindmap)
 
 ```mermaid
 mindmap
@@ -530,7 +475,7 @@ mindmap
 ```
 ---
 
-## 7. Diagrama de Sequência com Loop e Condição
+### 7. Diagrama de Sequência com Loop e Condição
    
 ```mermaid
 sequenceDiagram
@@ -556,7 +501,7 @@ sequenceDiagram
     end
 ```
 
-## 8. Gráfico de Gantt com dependências
+### 8. Gráfico de Gantt com dependências
 
 ```mermaid
 gantt
@@ -578,7 +523,7 @@ gantt
 ```
 ---
 
-## 9. Diagrama de Fluxo Git
+### 9. Diagrama de Fluxo Git
 
 ```mermaid
 gitGraph
@@ -593,7 +538,7 @@ gitGraph
     commit id:"release"
 ```
 
-## 10. Gráfico de Usuários (Pie Chart)
+### 10. Gráfico de Usuários (Pie Chart)
 
 ```mermaid
 pie title Distribuição de usuários
@@ -602,7 +547,7 @@ pie title Distribuição de usuários
     "Tablet" : 10
 ```
 
-## 11. Git Graph
+### 11. Git Graph
 ```mermaid
 gitGraph
     commit id:"init"
@@ -615,20 +560,8 @@ gitGraph
     commit id:"release"
 ```
 
-## 12. Quadrant Chart
-```mermaid
-quadrantChart
-    title Matriz de Prioridade
-    x-axis Baixa --> Alta
-    y-axis Fácil --> Difícil
 
-    A[Melhorias simples] : 0.2 : 0.3
-    B[Tarefas rápidas] : 0.7 : 0.2
-    C[Projetos grandes] : 0.8 : 0.8
-    D[Ganhos médios] : 0.3 : 0.7
-```
-
-## 13. Timeline
+### 12. Timeline
 ```mermaid
 timeline
     title Evolução do Projeto
@@ -637,4 +570,3 @@ timeline
     2026 : Testes
     2027 : Lançamento
 ```
-
