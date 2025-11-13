@@ -450,6 +450,23 @@ journey
       Realiza pagamento: 1
       Recebe confirmação: 5
 ```
+
+```mermaid
+journey
+    title Jornada do Cliente - Suporte Técnico
+    section Contato
+      Acessa site de suporte: 3
+      Pesquisa na base de conhecimento: 4
+      Abre ticket: 2
+    section Atendimento
+      Recebe resposta automática: 3
+      Atendido por humano: 5
+      Envia logs e detalhes: 4
+    section Resolução
+      Problema resolvido: 5
+      Feedback enviado: 4
+```
+
 ---
 
 ### 6. Mapa Mental (Mindmap)
